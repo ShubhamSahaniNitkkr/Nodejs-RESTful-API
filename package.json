@@ -1,0 +1,20 @@
+{
+  "name": "api-shop",
+  "version": "1.0.0",
+  "description": "node js api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Shubham Sunny",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "refresh": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
