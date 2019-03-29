@@ -15,6 +15,9 @@ mongoose.connect('mongodb+srv://shubham:'+process.env.MONGO_ATLAS_PW+'@node-rest
 }
  );
 
+// remove deprecation error
+mongoose.Promise=global.Promise;
+
 
 // logger
 app.use(morgan('dev'));
